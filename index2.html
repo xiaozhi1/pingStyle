@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Bin</title>
+    <style>
+        .second .header {
+            background: #ebbc48;
+            height: 20vh;
+        }
+        .second .left {
+            background: #f5f5dd;
+            height: 80vh;
+            width: 50%;
+            float: left;
+        }
+        .second .right {
+            background: #e9e9e9;
+            height: 80vh;
+            width: 50%;
+            float: left;
+        }
+        .second .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="second">
+        <div class="header"></div>
+        <div class="main clearfix">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+    </div>
+</body>
+
+</html>
